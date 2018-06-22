@@ -27,7 +27,7 @@ function add() {
 function subtract() {
     var one = 1, two = 5;
 
-    while (two <= one) {
+    while (two > one) {
         console.log('test');
         one = Math.floor(Math.random() * 13);
         two = Math.floor(Math.random() * 13);
