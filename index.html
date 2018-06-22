@@ -1,0 +1,22 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Math Practice</title>
+</head>
+<body>
+    <h1>Math Practice</h1>
+    <p>A simple web app for practicing your math.</p>
+    <select id="types" onchange="asker()">
+        <option value="multiplication">Multiplication</option>
+        <option value="division">Division</option>
+        <option value="addition">Addition</option>
+        <option value="subtraction">Subtraction</option>
+    </select>
+    <p id="ask"></p>
+    <input type="number" id="answer" /><button onclick="send(Number(document.getElementById('answer').value))">Answer</button>
+    <footer>
+        <p>Built by MasterOfTheTiger. Code under MIT on <a href="https://github.com/MasterOfTheTiger/math-practice">GitHub</a>.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
